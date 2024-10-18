@@ -11,3 +11,9 @@ You have just joined your favorite company and have been tasked with printing ne
     - document errors you encountered and how you fixed them, 
     - detail the git commands you used to remove the node_modules, and
     - detail the git commands you used to correct the file structure
+## Corrections
+
+- There was an erorr in App.js on lines 16 & 17. It referenced items instead of item (which was implemented during mapping on line 13)
+- I also moved the app.listen in the server.js file to the bottom of the page to make sure it was formatted properly
+- I added node_modules to the .gitignore file
+- I tried using mv server / command to move the server file out to the root but it didn't work so I dragged it
